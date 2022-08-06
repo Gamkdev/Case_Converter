@@ -31,7 +31,7 @@ document.getElementById ("save-text-file").addEventListener ("click", function (
     }
 
 // Start file download.
-    download("Case_Converter.txt",text.value);
+    download("text.txt",text.value);
 });
 
 function UpperFirstChar (separator) {
